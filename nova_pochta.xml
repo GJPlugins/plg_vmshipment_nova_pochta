@@ -14,11 +14,15 @@
         <folder>Images</folder>
         <folder>language</folder>
         <folder>nova_pochta</folder>
-        <filename plugin="nova_pochta">index.html</filename>
+        <filename>index.html</filename>
         <filename plugin="nova_pochta">nova_pochta.php</filename>
-        <filename plugin="nova_pochta">script.php</filename>
+        <filename>README.md</filename>
+        <filename>script.php</filename>
+        <filename>update.xml</filename>
     </files>
-
+    <updateservers>
+        <server type="extension" name="VirtueMart nova pochta">https://raw.githubusercontent.com/GJPlugins/plg_vmshipment_nova_pochta/master/update.xml</server>
+    </updateservers>
     <config>
 
 
