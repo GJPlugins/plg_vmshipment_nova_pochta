@@ -35,6 +35,14 @@
     <vmconfig>
         <fields name="params">
             <fieldset name="restrictions" addfieldpath="/plugins/vmshipment/nova_pochta/elements">
+
+                <fieldset addfieldpath="/libraries/GNZ11/Extensions/Fields" />
+                <field name="version_plugin"
+                       type="version"
+                       path_xml="/plugins/vmshipment/nova_pochta/nova_pochta.xml"
+                       class="version_plugin "
+                       filter="raw" />
+
                 <!-- Заголовок блока полей -->
 
 
